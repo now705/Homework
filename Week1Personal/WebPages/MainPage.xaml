@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:Week1Personal" x:Class="Week1Personal.MainPage"
+             Title="Main Page">
+    <StackLayout>
+        <Label Text="My Awsome App" 
+               Font="Large"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+        <Image Source = "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRSyKVTjLq0GPFdi7h9if0qeTa4K1uDvA72FO6eoVLJJ__rNuXRtw"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"/>
+        
+        <Button Text="History/Score"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand" 
+                Clicked="ClickedOne"/>
+        <Button Text="Character"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="ClickedTwo"/>
+        <Button Text="Items"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="ClickedThree"/>
+    </StackLayout>
+</ContentPage>

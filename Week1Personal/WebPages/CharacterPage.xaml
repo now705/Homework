@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="Week1Personal.CharacterPage"
+             Title="Character Page">
+    <ContentPage.Content>
+        <Label Text="Characters will go here" 
+               Font="Large"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+    </ContentPage.Content>
+</ContentPage>
